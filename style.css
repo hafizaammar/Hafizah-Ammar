@@ -214,7 +214,15 @@ form {
 	transition: 0.5s;
 }
 
-@media only screen and (min-width 768px) {
+@media only screen and (min-width: 768px) {
+	
+nav {
+	float: left;
+	line-height: 30px;
+	background-color: #faecc1;
+	width: 100%;
+	height: 100%;
+}
 	
 .container img {
 	width: 150px;
@@ -225,4 +233,5 @@ form {
 	width: 200px;
 	clip-path: circle();
 }
+	
 }
