@@ -214,3 +214,15 @@ form {
 	transition: 0.5s;
 }
 
+@media only screen and (min-width 768px) {
+	
+.container img {
+	width: 150px;
+	clip-path: circle();
+}
+
+.KakakHatyai {
+	width: 200px;
+	clip-path: circle();
+}
+}
